@@ -1,11 +1,10 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-    const int ARRAY_SIZE = 7;
-    int anArray[] ={4, 5, 2, 1, 5, 6, 7};
+const int ARRAY_SIZE = 7;
+
+void displayArray(int anArray[]){
+
     for(int i=0; i<ARRAY_SIZE; i++){
         if(i!= 0){
             cout << " , ";
@@ -13,4 +12,12 @@ int main()
         cout << anArray[i];
     }
     cout << "\n";
+}
+
+int main()
+{
+    int anArray[] ={4, 5, 2, 1, 5, 6, 7};
+    displayArray(anArray);
+
+
 }
