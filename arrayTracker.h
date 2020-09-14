@@ -1,0 +1,4 @@
+#ifndef ARRAYTRACKER_H
+#define ARRAYTRACKER_H
+
+#endif // ARRAYTRACKER_H
